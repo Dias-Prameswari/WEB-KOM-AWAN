@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+$warning: #07877a;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #f1fbff;
+}
+
+.btn-warning {
+    background-color: $warning !important;
+    border-color: $warning !important;
+    color: #f1fbff;
+}

@@ -1,0 +1,47 @@
+<!-- /auth/user_login.php -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Login User</title>
+  <link href="../css/main.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="login-box">
+    <h2>Login User</h2>
+    <form action="proses_user_login.php" method="POST">
+      <input type="text" name="username" placeholder="Username" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login User SI HADIR</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center" style="height:100vh">
+  <div class="card p-4 shadow" style="width: 22rem;">
+    <h4 class="mb-3 text-center">Login User</h4>
+    <form action="../auth/proses_user_login.php" method="POST">
+      <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input type="text" class="form-control" name="username" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" name="password" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Nama Lengkap</label>
+        <input type="nama_lengkap" class="form-control" name="nama_lengkap" required>
+      </div>
+      <button type="submit" class="btn btn-warning w-100">Login</button>
+    </form>
+  </div>
+</body>
+</html>
