@@ -1,9 +1,10 @@
 <?php
 session_start();
-if (!isset($_SESSION['login'])) {
-    header("Location: ../auth/login.php");
-    exit;
+if (!isset($_SESSION['login']) || $_SESSION['username'] != 'admin') {
+  header('Location: ../auth/login.php');
+  exit;
 }
+
 ?>
 
 <!DOCTYPE html>

@@ -36,10 +36,10 @@
         <label class="form-label">Password</label>
         <input type="password" class="form-control" name="password" required>
       </div>
-      <div class="mb-3">
+      <!-- <div class="mb-3">
         <label class="form-label">Nama Lengkap</label>
         <input type="nama_lengkap" class="form-control" name="nama_lengkap" required>
-      </div>
+      </div> -->
       <button type="submit" class="btn btn-warning w-100">Login</button>
     </form>
   </div>

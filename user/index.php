@@ -8,10 +8,16 @@
 
 <?php
 session_start();
-if (!isset($_SESSION['user_login'])) {
-    header("Location: ../auth/user_login.php");
+
+if (
+    !isset($_SESSION['login']) ||
+    !isset($_SESSION['role']) ||
+    ($_SESSION['role'] != 'user' && $_SESSION['role'] != 'admin')
+) {
+    header('Location: ../auth/user_login.php');
     exit;
 }
+
 ?>
 
 <!DOCTYPE html>

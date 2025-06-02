@@ -11,6 +11,8 @@ $result = mysqli_query($conn, $query);
 if (mysqli_num_rows($result) === 1) {
     $_SESSION['user_login'] = true;
     $_SESSION['username'] = $username;
+    $_SESSION['login'] = true;
+    $_SESSION['role'] = 'user';
     header("Location: ../user/index.php");
     exit;
 } else {
