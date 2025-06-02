@@ -1,12 +1,4 @@
 <?php
-// session_start();
-// if (!isset($_SESSION['login'])) {
-//   header("Location: ../auth/login.php");
-//   exit;
-// }
-?>
-
-<?php
 session_start();
 
 if (
@@ -53,21 +45,12 @@ if (
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Buy</a>
-              </li>
-              <li class="nav-item">
-                <a href="../auth/user_logout.php" class="btn btn-outline-danger btn-sm">Logout</a>
+                <a href="../auth/user_logout.php" class="btn btn-danger btn-sm ms-3 rounded-pill px-3">Logout</a>
               </li>
             </ul>
           </div>
@@ -114,32 +97,30 @@ if (
             <!-- ...existing code... -->
 
         <!-- ...existing code... -->
-            <div class="carousel-caption">
-              <h5>SI HADIR</h5>
-              <p>
-                Selamat Datang Di Website Presensi 
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" style="bottom: 20%; max-width: 700px; margin: 0 auto;"">
+              <h5 style="font-size: 2rem;">SI HADIR</h5>
+              <p style="font-size: 1rem; line-height: 1.5; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">
+                Si Hadir adalah aplikasi web presensi berbasis PHP murni yang dirancang untuk memudahkan proses pencatatan kehadiran siswa tingkat SMA secara online. Sistem ini dijalankan secara lokal namun diakses secara publik melalui bantuan Ngrok, yaitu layanan tunneling yang memungkinkan web lokal diakses dari internet melalui URL sementara.
               </p>
               <p><a href="#services" class="btn btn-warning mt-3">Presensi Sekarang</a></p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="../img/gambar-2.jpg" class="d-block w-100" alt="..." />
-            <div class="carousel-caption">
-              <h5>Always Dedicated</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Maxime, nulla, tempore. Deserunt excepturi quas vero.
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" style="bottom: 20%; max-width: 700px; margin: 0 auto;">
+              <h5 style="font-size: 2rem;">Always Dedicated</h5>
+              <p style="font-size: 1rem; line-height: 1.5; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">
+                Aplikasi ini dihosting menggunakan server pribadi milik saudara saya yang dapat diakses secara publik menggunakan SSH dan layanan tunneling dari Ngrok. Artinya, aplikasi ini sudah menerapkan prinsip cloud computing, yaitu remote accessibility, availability, dan pengelolaan layanan dari jarak jauh.
               </p>
               <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item ">
             <img src="../img/gambar-3.jpg" class="d-block w-100" alt="..." />
-            <div class="carousel-caption">
-              <h5>True Construction</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Maxime, nulla, tempore. Deserunt excepturi quas vero.
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" style="bottom: 20%; max-width: 700px; margin: 0 auto;"">
+              <h5 style="font-size: 2rem;">True Construction</h5>
+              <p style="font-size: 1rem; line-height: 1.5; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">
+                Data presensi dikelola menggunakan phpMyAdmin yang terhubung ke database MySQL, memberikan kemudahan dalam pengelolaan data absensi dan pengguna.
               </p>
               <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
             </div>
@@ -174,9 +155,10 @@ if (
             <div class="">
               <div class="section-header text-center pb-5">
                 <h2>Our Services</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur <br />adipisicing
-                  elit. Non, quo.
+                <p class="mx-auto" style="max-width: 600px;">
+                Layanan ini memudahkan siswa SMA/SMK untuk 
+                melakukan presensi secara daring dengan cepat, 
+                aman, dan akurat.
                 </p>
               </div>
             </div>
@@ -187,7 +169,7 @@ if (
               <div class="card text-white text-center bg-dark pb-2">
                 <div class="card-body">
                   <i class="bi bi-journal"></i>
-                  <h3 class="card-title">Mahasiswa</h3>
+                  <h3 class="card-title">Presensi Siswa</h3>
                   <p class="lead">
                     Silahkan Klik Presensi Sekarang
                   </p>
