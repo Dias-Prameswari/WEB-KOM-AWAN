@@ -51,5 +51,81 @@ ingin beralih ke digital.
 3. Database: MySQL
 4. Email: PHPMailer (SMTP Gmail)
 
+## Struktur Database
+###Berikut struktur dan relasi utama database SI-PRESMA:
+### Tabel: presensi_sma1, presensi_sma2, ..., presensi_sma5, presensi_sekolah_lain
+
+| Field           | Tipe         | Keterangan                |
+|-----------------|--------------|---------------------------|
+| id              | INT          | Primary Key, Auto Inc     |
+| nss             | VARCHAR(20)  | Nomor Sekolah             |
+| nama_pengisi    | VARCHAR(50)  | Nama Siswa/Guru/Staf      |
+| id_status       | INT          | FK ke tabel status        |
+| id_keterangan   | INT          | FK ke keterangan_presensi |
+| waktu_presensi  | DATETIME     | Tanggal & waktu presensi  |
+
+---
+
+### Tabel: admin
+
+| Field      | Tipe          | Keterangan        |
+|------------|---------------|------------------|
+| id         | INT           | Primary Key      |
+| username   | VARCHAR(30)   | Username admin   |
+| password   | VARCHAR(100)  | Hash password    |
+
+---
+
+### Tabel: user
+
+| Field      | Tipe          | Keterangan         |
+|------------|---------------|-------------------|
+| id         | INT           | Primary Key       |
+| nama       | VARCHAR(50)   | Nama user         |
+| email      | VARCHAR(50)   | Email             |
+| password   | VARCHAR(100)  | Hash password     |
+| otp        | VARCHAR(8)    | OTP verifikasi    |
+| aktif      | TINYINT       | Status aktif (1/0)|
+
+---
+
+### Tabel: status
+
+| Field       | Tipe          | Keterangan              |
+|-------------|---------------|------------------------|
+| id          | INT           | Primary Key            |
+| nama_status | VARCHAR(30)   | Jenis status (Siswa, Guru, dst) |
+
+---
+
+### Tabel: keterangan_presensi
+
+| Field            | Tipe          | Keterangan                  |
+|------------------|---------------|----------------------------|
+| id               | INT           | Primary Key                |
+| nama_keterangan  | VARCHAR(20)   | Hadir/Izin/Sakit/Alfa      |
+
+---
+
+### Tabel: sekolah_semarang_fix_2 (Optional)
+
+| Field           | Tipe          | Keterangan           |
+|-----------------|---------------|----------------------|
+| id              | INT           | Primary Key          |
+| nama_sekolah    | VARCHAR(100)  | Nama sekolah         |
+| nss             | VARCHAR(20)   | Nomor sekolah        |
+| alamat_sekolah  | VARCHAR(150)  | Alamat sekolah       |
+| kelurahan       | VARCHAR(50)   | Kelurahan            |
+| kecamatan       | VARCHAR(50)   | Kecamatan            |
+| nomor_telepon   | VARCHAR(30)   | Nomor telepon        |
+
+> **Note:** Data sekolah sudah include di file `db.sql` dan siap dipakai tanpa setup tambahan.
+
+---
+
+### **Relasi Foreign Key**
+- `presensi_smaX.id_status` → `status.id`
+- `presensi_smaX.id_keterangan` → `keterangan_presensi.id`
+
 ---
 Dibuat oleh [Dias Prameswari](https://github.com/Dias-Prameswari) | 2025
