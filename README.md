@@ -7,8 +7,8 @@ kebutuhan demo, tugas akhir, atau implementasi di lingkungan sekolah yang
 ingin beralih ke digital.
 
 ## Preview
-![Tampilan login untuk admin SI-PRESMA](admin-1.png)
-![Tampilan dashboard untuk admin SI-PRESMA](admin-2.png)
+![Tampilan login untuk admin SI-PRESMA](ss-web-absensi/admin-1.png)
+![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-2.png)
 
 ## Fitur
 - Presensi online (Siswa, Guru, Staf)
