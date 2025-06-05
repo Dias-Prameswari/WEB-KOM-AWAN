@@ -48,12 +48,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $mail->isSMTP();
                     $mail->Host       = 'smtp.gmail.com';
                     $mail->SMTPAuth   = true;
-                    $mail->Username   = 'najmaaura27@gmail.com'; // email kamu
-                    $mail->Password   = 'ncez gdcc jdik zvmk';   // app password
+                    $mail->Username   = ''; // email kamu
+                    $mail->Password   = '';   // app password
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port       = 587;
 
-                    $mail->setFrom('najmaaura27@gmail.com', 'SI-PRESMA');
+                    $mail->setFrom('', 'SI-PRESMA');
                     $mail->addAddress($email, $nama);
 
                     $mail->isHTML(true);

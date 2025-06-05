@@ -51,11 +51,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['resend'])) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'najmaaura27@gmail.com';
-            $mail->Password = 'ncez gdcc jdik zvmk';
+            $mail->Username = '';
+            $mail->Password = '';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
-            $mail->setFrom('najmaaura27@gmail.com', 'SI-PRESMA');
+            $mail->setFrom('', 'SI-PRESMA');
             $mail->addAddress($email);
             $mail->isHTML(true);
             $mail->Subject = 'Kode OTP Baru SI-PRESMA';
