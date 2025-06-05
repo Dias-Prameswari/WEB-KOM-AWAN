@@ -52,7 +52,7 @@ ingin beralih ke digital.
 4. Email: PHPMailer (SMTP Gmail)
 
 ## Struktur Database
-###Berikut struktur dan relasi utama database SI-PRESMA:
+### Berikut struktur dan relasi utama database SI-PRESMA:
 ### Tabel: presensi_sma1, presensi_sma2, ..., presensi_sma5, presensi_sekolah_lain
 
 | Field           | Tipe         | Keterangan                |
