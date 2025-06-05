@@ -12,7 +12,7 @@ ingin beralih ke digital.
 #### Tampilan halaman dashboard untuk admin
 ![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-2.png)
 #### Tampilan halaman data presensi sekola untuk admin
-![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-3.png) & ![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-4.png) & ![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-5.png)
+![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-3.png) ![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-4.png) ![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-5.png)
 
 
 
