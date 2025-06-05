@@ -7,7 +7,9 @@ kebutuhan demo, tugas akhir, atau implementasi di lingkungan sekolah yang
 ingin beralih ke digital.
 
 ## Preview
+#### Tampilan halaman login untuk admin 
 ![Tampilan login untuk admin SI-PRESMA](ss-web-absensi/admin-1.png)
+#### Tampilan halaman dashboard untuk admin
 ![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-2.png)
 
 ## Fitur
