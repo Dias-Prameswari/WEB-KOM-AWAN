@@ -53,11 +53,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port       = 587;
 
-                    $mail->setFrom('najmaaura27@gmail.com', 'SI HADIR');
+                    $mail->setFrom('najmaaura27@gmail.com', 'SI-PRESMA');
                     $mail->addAddress($email, $nama);
 
                     $mail->isHTML(true);
-                    $mail->Subject = 'Kode OTP SI HADIR';
+                    $mail->Subject = 'Kode OTP SI-PRESMA';
                     $mail->Body    = "Kode OTP kamu adalah: <b>$otp</b><br> Berlaku sampai: $otp_expiry WIB.";
 
                     $mail->send();
@@ -81,12 +81,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Register SI HADIR</title>
+    <title>Register SI-PRESMA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light d-flex justify-content-center align-items-center" style="height:100vh;">
     <div class="card p-4 shadow" style="width: 24rem;">
-        <h4 class="mb-3 text-center">Daftar Akun SI HADIR</h4>
+        <h4 class="mb-3 text-center">Daftar Akun SI-PRESMA</h4>
         <?php if (!empty($errors)): ?>
             <div class="alert alert-danger">
                 <ul class="mb-0">

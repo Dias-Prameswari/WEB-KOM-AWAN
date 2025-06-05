@@ -65,7 +65,7 @@ while($row = mysqli_fetch_assoc($q)) {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Dashboard Admin - SI HADIR</title>
+  <title>Dashboard Admin - SI-PRESMA</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     .summary-card { min-height: 120px; }
@@ -77,7 +77,7 @@ while($row = mysqli_fetch_assoc($q)) {
 <body class="bg-light">
   <div class="container my-5">
     <div class="d-flex justify-content-between align-items-center mb-4">
-      <h2 class="mb-0">Dashboard Admin SI HADIR</h2>
+      <h2 class="mb-0">Dashboard Admin SI-PRESMA</h2>
       <a href="../auth/logout.php" class="btn btn-danger">Logout</a>
     </div>
     <div class="mb-3">Selamat datang, <b><?= htmlspecialchars($_SESSION['username']) ?></b>!</div>

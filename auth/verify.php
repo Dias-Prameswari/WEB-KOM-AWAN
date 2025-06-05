@@ -55,10 +55,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['resend'])) {
             $mail->Password = 'ncez gdcc jdik zvmk';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
-            $mail->setFrom('najmaaura27@gmail.com', 'SI HADIR');
+            $mail->setFrom('najmaaura27@gmail.com', 'SI-PRESMA');
             $mail->addAddress($email);
             $mail->isHTML(true);
-            $mail->Subject = 'Kode OTP Baru SI HADIR';
+            $mail->Subject = 'Kode OTP Baru SI-PRESMA';
             $mail->Body    = "Kode OTP baru kamu adalah: <b>$otp</b><br> Berlaku sampai: $otp_expiry WIB.";
             $mail->send();
             $error = "Kode OTP baru sudah dikirim ke email!";
@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['resend'])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Verifikasi Akun - SI HADIR</title>
+    <title>Verifikasi Akun - SI-PRESMA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light d-flex justify-content-center align-items-center" style="height:100vh;">
