@@ -1,4 +1,9 @@
 # SI-PRESMA
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PHP](https://img.shields.io/badge/PHP-%3E=8.0-blue.svg)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-Database-brightgreen)](https://www.mysql.com/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple)](https://getbootstrap.com/)
+
 #### SI-PRESMA (Sistem Presensi SMA)
 SI-PRESMA adalah aplikasi absensi online berbasis web yang 
 memudahkan pencatatan kehadiran seluruh civitas SMA/SMK (siswa, guru, staf) 
@@ -11,7 +16,7 @@ ingin beralih ke digital.
 ![Tampilan login untuk admin SI-PRESMA](ss-web-absensi/admin-1.png)
 #### Tampilan halaman dashboard untuk admin
 ![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-2.png)
-#### Tampilan halaman data presensi sekola untuk admin
+#### Tampilan halaman data presensi sekolah untuk admin
 ![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-3.png) 
 ![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-4.png) 
 ![Tampilan dashboard untuk admin SI-PRESMA](ss-web-absensi/admin-5.png)
@@ -45,12 +50,6 @@ ingin beralih ke digital.
 2. Frontend: Bootstrap 5, Custom CSS
 3. Database: MySQL
 4. Email: PHPMailer (SMTP Gmail)
-
-# SI-PRESMA
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![PHP](https://img.shields.io/badge/PHP-%3E=8.0-blue.svg)](https://www.php.net/)
-[![MySQL](https://img.shields.io/badge/MySQL-Database-brightgreen)](https://www.mysql.com/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple)](https://getbootstrap.com/)
 
 ---
 Dibuat oleh [Dias Prameswari](https://github.com/Dias-Prameswari) | 2025
