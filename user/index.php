@@ -17,13 +17,14 @@ if (
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Si Hadir</title>
-    <link href="../css/main.css" rel="stylesheet" />
+    <title>SI-PRESMA</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link href="../css/main.css" rel="stylesheet" />
   </head>
   <body>
     <!-- header starts -->
@@ -31,7 +32,7 @@ if (
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
-          <span class="text-warning">Si Hadir</span>
+            <span class="gradient-brand">SI-PRESMA</span>
           </a>
           <button
             class="navbar-toggler"
@@ -98,9 +99,12 @@ if (
 
         <!-- ...existing code... -->
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" style="bottom: 20%; max-width: 700px; margin: 0 auto;"">
-              <h5 style="font-size: 2rem;">SI HADIR</h5>
+              <h5 style="font-size: 2rem;">SI-PRESMA (Sistem Presensi SMA)</h5>
               <p style="font-size: 1rem; line-height: 1.5; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">
-                Si Hadir adalah aplikasi web presensi berbasis PHP murni yang dirancang untuk memudahkan proses pencatatan kehadiran siswa tingkat SMA secara online. Sistem ini dijalankan secara lokal namun diakses secara publik melalui bantuan Ngrok, yaitu layanan tunneling yang memungkinkan web lokal diakses dari internet melalui URL sementara.
+                SI-PRESMA (Sistem Presensi SMA) merupakan aplikasi absensi online berbasis web 
+                yang mendukung pencatatan kehadiran seluruh civitas SMA—baik siswa, guru, maupun staf. 
+                Dengan antarmuka yang sederhana dan terintegrasi dengan database MySQL, 
+                pencatatan presensi menjadi lebih mudah, cepat, dan akurat.
               </p>
               <p><a href="#services" class="btn btn-warning mt-3">Presensi Sekarang</a></p>
             </div>
@@ -108,21 +112,25 @@ if (
           <div class="carousel-item">
             <img src="../img/gambar-2.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" style="bottom: 20%; max-width: 700px; margin: 0 auto;">
-              <h5 style="font-size: 2rem;">Always Dedicated</h5>
+              <h5 style="font-size: 2rem;">Akses Mudah, Di Mana Saja</h5>
               <p style="font-size: 1rem; line-height: 1.5; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">
-                Aplikasi ini dihosting menggunakan server pribadi milik saudara saya yang dapat diakses secara publik menggunakan SSH dan layanan tunneling dari Ngrok. Artinya, aplikasi ini sudah menerapkan prinsip cloud computing, yaitu remote accessibility, availability, dan pengelolaan layanan dari jarak jauh.
+                Sistem dapat dijalankan secara lokal di komputer/laptop dan diakses secara publik 
+                melalui layanan tunneling (Ngrok), sehingga bisa digunakan untuk demo atau kebutuhan 
+                sekolah yang belum memiliki server online. Data presensi tersimpan aman di database, 
+                dan dapat diekspor dalam format Excel/PDF untuk keperluan laporan.
               </p>
-              <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+              <!-- <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p> -->
             </div>
           </div>
           <div class="carousel-item ">
             <img src="../img/gambar-3.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center" style="bottom: 20%; max-width: 700px; margin: 0 auto;"">
-              <h5 style="font-size: 2rem;">True Construction</h5>
+              <h5 style="font-size: 2rem;">Terintegrasi Database</h5>
               <p style="font-size: 1rem; line-height: 1.5; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">
-                Data presensi dikelola menggunakan phpMyAdmin yang terhubung ke database MySQL, memberikan kemudahan dalam pengelolaan data absensi dan pengguna.
+                Data kehadiran dicatat dan dikelola secara otomatis menggunakan database MySQL, 
+                sehingga mudah dalam proses pelaporan, pencarian, maupun backup data presensi.
               </p>
-              <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+              <!-- <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p> -->
             </div>
           </div>
         </div>
@@ -188,7 +196,7 @@ if (
     <!-- footer starts -->
     <footer class="bg-dark p-2 text-center">
       <div class="container">
-        <p class="text-white">All Right Reserved By @Si Hadir</p>
+        <p class="text-white">All Right Reserved By @SI-PRESMA</p>
       </div>
     </footer>
     <!-- footer ends -->

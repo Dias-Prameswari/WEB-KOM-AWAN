@@ -24097,3 +24097,16 @@ body {
 .team .card {
   box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }/*# sourceMappingURL=main.css.map */
+
+/* tambahan baru untuk tulisan web si-presma */
+.gradient-brand {
+  background: linear-gradient(90deg, #110ece 20%, #2af9f9 80%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+  /* font-weight: 800 !important;
+  font-size: 2rem !important; */
+  letter-spacing: 1px !important;
+  display: inline-block !important;
+}
